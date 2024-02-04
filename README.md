@@ -6,6 +6,8 @@ You can use the "Keys_generator" program to generate the two files containing th
 
 You just have to change the next lines corresponding to the name you want for the keys, although the default one is the one the client and server programs will look for. Although you could also change it in these programs.
 
+```python
 fichero_path = Path(__file__).parent / "private_key_server.pem"
 
 fichero_path = Path(__file__).parent / "public_key_server.pem"
+```
